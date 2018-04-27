@@ -3,7 +3,7 @@ install: bundle install
 cache: bundler
 sudo: enabled
 rvm:
- - 2.5.1p57
+ - 2.5.1
 
 deploy:
   provider: pages
