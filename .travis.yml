@@ -1,6 +1,7 @@
 language: ruby
-
 install: bundle install
+cache: bundler
+sudo: enabled
 
 deploy:
   provider: pages
@@ -9,5 +10,3 @@ deploy:
   keep-history: true
   on:
     branch: master
-
-cache: bundler
