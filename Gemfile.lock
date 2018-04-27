@@ -245,6 +245,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  rb-fsevent
+  rb-inotify
 
 BUNDLED WITH
    1.16.1
