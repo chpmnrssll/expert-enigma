@@ -1,7 +1,6 @@
 language: ruby
 # cache: bundler
 install:
-  - gem install bundler --version '1.14.6' --no-ri --no-rdoc
   - bundle install
 script: bundle exec jekyll build
 # sudo: enabled
