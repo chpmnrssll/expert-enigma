@@ -1,6 +1,6 @@
 language: ruby
 
-install: bundle install
+install: bundle install --full-index
 
 deploy:
   provider: pages
