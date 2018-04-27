@@ -1,0 +1,18 @@
+author: Russell Chapman
+description:
+permalink: /posts/:categories/:title
+title: Expert Enigma
+
+github_username: chpmnrssll
+github_repository: chpmnrssll.github.io
+github_branch: master
+
+sass:
+  style: compressed
+  sass_dir: /assets/css
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
