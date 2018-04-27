@@ -1,11 +1,12 @@
 language: ruby
-cache: bundler
+# cache: bundler
 install:
+  - gem install bundler --version '1.14.6' --no-ri --no-rdoc
   - bundle install
 script: bundle exec jekyll build
-sudo: enabled
+# sudo: enabled
 rvm:
-  - 2.4.2
+  - 2.5.1
 deploy:
   provider: pages
   skip-cleanup: true
