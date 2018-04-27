@@ -1,10 +1,6 @@
 language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx-3
 
-install: bundle install --full-index
+install: bundle install --full-index && bundler update
 
 deploy:
   provider: pages
