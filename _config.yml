@@ -17,5 +17,3 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-avatar
-
-theme: jekyll-theme-midnight
