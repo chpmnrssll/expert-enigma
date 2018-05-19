@@ -8,6 +8,8 @@ github_username: chpmnrssll
 github_repository: expert-enigma
 github_branch: master
 
+repository: "chpmnrssll/expert-enigma"
+
 sass:
   style: compressed
   sass_dir: /assets/css
